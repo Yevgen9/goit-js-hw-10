@@ -68,8 +68,6 @@ let arrBreedsId = [];
 //   );
 // }
 
-
-
 async function initializeBreeds() {
   try {
     const data = await fetchBreeds();
